@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap');
+
+.image {
+    max-width: 40%;
+}
+@media (max-width: 700px) and (min-width: 0px) {
+    .image {
+        max-width: 60%;
+    }
+}
+.textTitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: aliceblue;
+}
+@media (max-width:700px) and (min-width: 0px) {
+    .textTitle{
+        font-size: 50px;
+    }
+}
+.parrafo {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+.bar {
+    width: 30%;
+    height: 30px;
+    display: inline-block;
+}
+.boxIcons {
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 50%;
+    border: solid aliceblue 2px;
+}
+@media (max-width: 700px) and (min-width: 0px) {
+    .icons {
+        width: 50px;
+        height: 50px;
+    }
+}
+a {
+    appearance: none;
+    color: aliceblue;
+}
+.inicio {
+    width: 0%;
+    background: #00B0FF;
+}
+.fin {
+    width: 80%;
+}
+.animacion {
+    transition: all 2s ease .5s;
+}
