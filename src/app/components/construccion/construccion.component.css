@@ -57,6 +57,7 @@
 a {
     appearance: none;
     color: aliceblue;
+    text-decoration: none;
 }
 .inicio {
     width: 0%;
