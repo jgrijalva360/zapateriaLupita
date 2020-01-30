@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { MarcasComponent } from './components/marcas/marcas.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
     HomeComponent,
     HeaderComponent,
     CarruselComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    MarcasComponent,
+    ContactoComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
