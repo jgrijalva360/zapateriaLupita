@@ -6,9 +6,20 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './components/body/body.component';
 import { ConstruccionComponent } from './components/construccion/construccion.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
 
 @NgModule({
-  declarations: [AppComponent, BodyComponent, ConstruccionComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    BodyComponent,
+    ConstruccionComponent,
+    HomeComponent,
+    HeaderComponent,
+    CarruselComponent,
+    NosotrosComponent
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
