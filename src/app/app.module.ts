@@ -11,6 +11,8 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { MarcasComponent } from './components/marcas/marcas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FormasPagoComponent } from './components/formas-pago/formas-pago.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     CarruselComponent,
     NosotrosComponent,
     MarcasComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent,
+    FormasPagoComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
