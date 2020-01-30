@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:700&display=swap');
+
+.logo {
+  max-width: 200px;
+}
+.menu {
+  transition: all 0.4s ease;
+  background-color: #004273;
+}
+/* ul li {
+  padding: 5px;
+  margin: 0 15px;
+  transition: all .5s ease;
+  border-bottom: solid 1.5px #ffffff;
+}
+ul li:hover {
+  transform: translateY(-5px);
+} */
+
+.menu2 {
+  transition: all 0.4s ease;
+  background-color: aliceblue;
+  padding: 10px 0;
+}
+ul li {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 30px;
+  transition: all .5s ease;
+  border-bottom: solid 1.5px #004273;
+}
+ul li:hover {
+  transform: translateY(-5px);
+}
+
+ul li a {
+  color: #004273;
+  font-weight: bold;
+  text-decoration: none;
+  appearance: none;
+}
+ul li:hover a{
+  text-decoration: none;
+  appearance: none;
+}
+.text {
+  color: #fff;
+  font-family: 'Tangerine', cursive;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px  #000;
+}
