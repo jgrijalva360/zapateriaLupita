@@ -1,7 +1,14 @@
 .colorfooter {
     color: #ffffff;
-    background: rgb(10, 74, 138);
-    padding: 25px;
+    background: #004273;
+    padding: 20px;
     width: 100%;
-    
+}
+.logo-social {
+    font-size: 35px;
+    color: #fff;
+    margin: 0 20px;
+}
+.link {
+    color: #fff;
 }
