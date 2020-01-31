@@ -18,7 +18,7 @@ export class WhatsAppComponent implements OnInit {
     );
     if (mobileDetect) {
       $('#float-cta .whatsapp-msg-container').css('display', 'none');
-      window.open('https://api.whatsapp.com/send?phone=52558837478', '_blank');
+      window.open('https://api.whatsapp.com/send?phone=525588377478', '_blank');
     } else {
       console.log('se ejecuta');
       $('#tache').toggleClass('open');
@@ -30,7 +30,8 @@ export class WhatsAppComponent implements OnInit {
         event.stopPropagation();
       });
       $('.btn-whatsapp-send').click(function() {
-        const baseUrl = 'https://web.whatsapp.com/send?phone=52558837478&text=';
+        const baseUrl =
+          'https://web.whatsapp.com/send?phone=525588377478&text=';
         const textEncode = encodeURIComponent(
           $('#float-cta .whatsapp-msg-body textarea').val()
         );
