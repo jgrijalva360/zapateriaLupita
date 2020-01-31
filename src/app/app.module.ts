@@ -13,6 +13,7 @@ import { MarcasComponent } from './components/marcas/marcas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormasPagoComponent } from './components/formas-pago/formas-pago.component';
+import { WhatsAppComponent } from './components/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormasPagoComponent } from './components/formas-pago/formas-pago.compon
     MarcasComponent,
     ContactoComponent,
     FooterComponent,
-    FormasPagoComponent
+    FormasPagoComponent,
+    WhatsAppComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
