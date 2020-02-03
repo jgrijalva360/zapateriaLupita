@@ -19,7 +19,7 @@ export class ConstruccionComponent implements OnInit {
   }
   progress() {
     const fechaInicio = new Date('2020/01/29 00:00:00').getTime();
-    const fechaFin = new Date('2020/02/07 17:59:59').getTime();
+    const fechaFin = new Date('2020/02/04 17:59:59').getTime();
     let porcentaje: number;
     const fechaActual = new Date().getTime();
     const diferencia = fechaFin - fechaInicio;
