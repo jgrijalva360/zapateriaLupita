@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
 /* body {
     background: #004273 !important;
 } */
+body {
+    background: aliceblue!important;
+}
+p, label {
+    font-family: 'Comfortaa', cursive;
+}
+h1, h2, h3, h4, h5 {
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Courgette', cursive;
+}
+ul li a {
+    font-family: 'Courgette', cursive;
+}

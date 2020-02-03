@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +31,7 @@ import { WhatsAppComponent } from './components/whatsapp/whatsapp.component';
     WhatsAppComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  providers: [[{ provide: LOCALE_ID, useValue: 'es-MX' }]],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
