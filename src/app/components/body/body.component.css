@@ -1,15 +1,5 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-div h1 {
-  text-align: center;
-  
-  
-}
 
 .efecto {
   display: flex;
@@ -79,7 +69,7 @@ div h1 {
 
 
 .seccion {
-	width: 60%;
+	width: 100%;
   margin: auto;
   padding: auto;
 }
@@ -90,10 +80,7 @@ div h1 {
 }
 
 .galeria ul li,  .galeria li img {
-	-webkit-transition: all 1s cubic-bezier(.42,.2,.2,.64);
-  	-moz-transition: all 1s cubic-bezier(.42,.2,.2,.64);
-  	-o-transition: all 1s cubic-bezier(.42,.2,.2,.64);
-  	transition: all 1s cubic-bezier(.42,.2,.2,.64);
+  	transition: all 0.5s cubic-bezier(.42,.2,.2,.64);
 }
 
 .galeria ul li {
@@ -114,7 +101,7 @@ div h1 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	border: 2px solid #004273;
+	border: 1px solid #004273;
 	width: 140px;
 	height: 140px;
   border-radius: 75px;
@@ -129,4 +116,8 @@ div h1 {
 	left: 50%;
 
   border-radius: 40px;
+}
+
+.img {
+  width: 100%;
 }
